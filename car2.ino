@@ -3,11 +3,12 @@
 #include <FirebaseArduino.h>
 #include <ArduinoJson.h>
 
-#define FIREBASE_HOST "carparkingbyiot.firebaseio.com"  
-#define FIREBASE_AUTH "C6ph0A2ebF6lVqTXSpWDK2LQTBdT7RHuvRuEFrM9"  
+#define FIREBASE_HOST "Your_FIREBASE_HOST"  
+#define FIREBASE_AUTH "Your_FIREBASE_AUTH"  
 
-const char*WIFI_SSID = "iphone11" ;  // ชื่อ WiFi
-const char*WIFI_PASSWORD = "korn1137" ; // รหัส WiFi
+const char*WIFI_SSID = "Your_WIFI_SSID" ;  // ชื่อ WiFi
+const char*WIFI_PASSWORD = "Your_WIFI_PASSWORD" ; // รหัส WiFi
+
 
 HCSR04 hc(D1,D2);
 HCSR04 hc2(D5,D6);
